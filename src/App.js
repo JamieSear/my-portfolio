@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { NavBar, Home, About, Projects, Contact, NotFound404 } from './Containers';
+import { NavBar, Home, About, Projects, Contact, NotFound404, Footer } from './Containers';
 import './Styles/App.css';
 
 
@@ -26,7 +26,7 @@ class App extends React.Component {
             <Route component={NotFound404} />
           </Switch>
         </section>
-        {/* <Footer /> */}
+        <Footer />
         </div>
       )
     }
