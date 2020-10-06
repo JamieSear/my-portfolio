@@ -1,15 +1,22 @@
 import React from "react"
-// import '../styles/Home.css';
+import { Link } from 'react-router-dom';
+import '../Styles/Home.css';
  
 function Home(props) {
   return (
-    <div className="home">
-    <div className="homeDescription animated animatedFadeInUp fadeInUp">
-        <p className="homeOneline">Hello, my name is Jamie Sear, I am a recent Digital Media graduate from the University of Leeds. I am currently learning to become a Full-Stack Web Developer at futureproof.</p>
-      </div>
-        <button className="homeBtn">About me</button>
-        <button className="homeBtn">View my work</button>
-    </div>
+    <>
+<div class="head">
+            <div class="name">Jamie<span>Sear</span>
+            </div>
+            <div class="sub-name">
+              Full Stack Engineer 
+              <br />
+              <Link to="/about"><button className="home-btn">About me</button> </Link>
+              <br />
+              <Link to="/projects"><button className="home-btn">View my work</button></Link>
+            </div>
+        </div>
+        </>
   )
 }
  
