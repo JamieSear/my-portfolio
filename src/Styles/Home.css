@@ -1,5 +1,3 @@
-/* @import "compass/css3"; */
-
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,900);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 html,body{
@@ -19,7 +17,7 @@ html,body{
     text-transform: uppercase;
     font-weight: 300;
     font-size: 60px;
-    height: 92vh;
+    height: 62vh;
     width: 100vw;
     position: relative;
     z-index:1111;
