@@ -1,11 +1,67 @@
-import React from "react"
+import React from "react";
+import '../Styles/Projects.css';
+import captains from '../assets/images/CaptainsLog.png';
+import blogSite from '../assets/images/blogSite.png';
+import quiz from '../assets/images/Quizux.png';
+import KVF from '../assets/images/KVF.png';
+import shorturl from '../assets/images/ShortUrl.png';
  
 function Projects(props) {
   return (
+
     <div className="projects animated animatedFadeInUp fadeInUp">
-       <h2 className="projectTitle">Projects</h2>
-        
-    </div>
+       <h2 className="projectTitle">Here is a list of some Projects I have worked on:</h2>
+
+
+       <section class="card-container">
+
+      <div class="card">
+      <img src ={captains} alt="logo"/>
+        <h1>Captain's Log</h1>
+        <p className="projectDesciption">Captain's Log is a place for managers or captains to select teams for future games. Created with Django, React and Redux.</p>
+        <a target="blank" className="projectLink" href="https://github.com/JamieSear/captains-log">View Code</a>
+      </div>
+
+      <div class="card">
+      <img src ={blogSite} alt="logo"/>
+        <h1>Blog Site</h1>
+        <p className="projectDesciption">A blog site where users can create a post and attach a GIF. Made with Vanilla JS.</p>
+        <a target="blank" className="projectLink" href="https://codepen.io/gregrickaby/pen/pVmgGX">View Website</a>
+        <br />
+        <a target="blank" className="projectLink" href="https://codepen.io/gregrickaby/pen/pVmgGX">View Code</a>
+      </div>
+
+      <div class="card">
+      <img src ={quiz} alt="logo"/>
+        <h1>Quizux</h1>
+        <p className="projectDesciption">A Quiz App that allows users to design their own quiz using an API to gather the questions. Created using React and Redux.</p>
+        <a target="blank" className="projectLink" href="https://github.com/JamieSear/quiz-app">View Code</a>
+      </div>
+
+      <div class="card">
+      <img src ={KVF} alt="logo"/>
+        <h1>Kirkstall Valley Farm</h1>
+        <p className="projectDesciption">University Project for a local CSA allowing them to promote their services to customers</p>
+        <a target="blank" className="projectLink" href="https://kirkstallvalleyfarm.jamiesear.com/">View Website</a>
+      </div>
+
+      <div class="card">
+      <img src ={shorturl} alt="logo"/>
+        <h1>Short URL</h1>
+        <p className="projectDesciption">Using Python and Django created an app that is a clone of shorturl.at that utilises a psqlite database to persist user created shortened URLs.</p>
+        <a target="blank" className="projectLink" href="https://shrink1.herokuapp.com/">View Website</a>
+        <br/>
+        <a target="blank" className="projectLink" href="https://github.com/JamieSear/short_url">View Code</a>
+      </div>
+
+      {/* <div class="card">
+      <img src ={captains} alt="logo"/>
+        <h1>Captain's Log</h1>
+        <p className="projectDesciption">Captain's Log is a place for managers or captains to select teams for future games.</p>
+        <a target="blank" className="projectLink" href="https://codepen.io/gregrickaby/pen/pVmgGX">Click here to view</a>
+      </div> */}
+      </section>
+</div>
   )
 }
  

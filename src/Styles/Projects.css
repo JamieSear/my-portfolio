@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+.projectTitle {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 40px;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.projectLink {
+    color: #28b6cf;
+    margin-top: 20px;
+}
+
+.projectLink:hover {
+    color: #3694a5;
+}
+
+.projectDesciption {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-container {
+	align-items: start;
+	display: grid;
+    grid-gap: 16px;
+    margin-bottom: 150px;
+    margin-top: 40px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+}
+
+.card {
+	border-radius: 5px;
+	color: white;
+    width: 270px;
+    height: 25vh;
+    margin-top: 10px;
+    border-radius: 3px;
+    margin-bottom: 150px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #555;
+}
+
