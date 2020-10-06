@@ -1,17 +1,14 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import '../Styles/NavBar.css'
-import { ReactComponent as Logo } from '../../assets/js-logo.svg'
 
 
-const NavBar = ({ clickHandler }) => {
+const NavBar = () => {
     return (
         <div className="navContainer">
             <div className="logoContainer">
                 <Link to="/">
-                {/* <img src="https://www.freepnglogos.com/uploads/javascript-png/black-js-logo-16.png"></img> */}
-                {/* RESIZE THIS  */}
-                <Logo />
+                <p>Jamie</p>
                 </Link>
             </div>
             <nav className="nav">

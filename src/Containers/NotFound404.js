@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import '../styles/404.css';
+import '../Styles/404.css';
 
 const NotFound404 = props => {
     return (
