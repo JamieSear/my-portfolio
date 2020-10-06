@@ -1,3 +1,3 @@
-### Jamie Sear's Portfolio
+# Jamie Sear's Portfolio
 
 ## Enjoy
