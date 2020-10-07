@@ -1,0 +1,113 @@
+.aboutHead{
+    color: #eaeaea;
+    /* background: rgb(54, 49, 49); */
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 40px;
+    height: 18vh;
+    width: 100%;
+    /* position: relative; */
+    /* z-index:1111; */
+    /* text-align: center; */
+    line-height: 25px;
+    transition: all 0.5s;;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    overflow: hidden;
+}
+
+/* .aboutHead-hide{
+    height: 0vh;
+    opacity: 0;
+} */
+
+.aboutHead span{
+    font-weight: 900;
+}
+.aboutName{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.aboutSub-name{
+    margin-top: 6px;
+    margin-left: 130px;
+    font-weight: 300;
+    /* margin-left: 23px; */
+    color: #28b6cf;
+    font-size: 20px;
+}
+
+.skillsTitle {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about-card{
+   max-width: 300px;
+    min-height: 250px;
+    background: #ffffff;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    margin:20px;
+    box-shadow: 0px 2px 18px -4px rgba(0,0,0,0.75);
+}
+.about-card:nth-child(2){
+   background: #ffffff;
+}
+.about-card:last-child{
+   background: #ffffff;
+}
+.about-card-title{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.about-card-content{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+.about-card-btn{
+    all: unset;
+    display: block;
+    margin-left: auto;
+    border: 2px solid #FFF;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all 0.5s;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+}
+.about-card-btn:hover{
+   color:#02b875;
+   background: #FFF;
+}
+.about-card:nth-child(2) .card-btn:hover{
+   color:#4181ee;
+   background: #FFF;
+}
+.about-card:last-child .card-btn:hover{
+   color:#673ab7;
+    background: #FFF;
+}
+
+@media only screen and (max-width: 400px) {
+    .aboutName {
+        font-size: 50px;
+    }
+    .aboutSub-name{
+        font-size: 18px;
+    }
+}
