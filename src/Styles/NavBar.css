@@ -32,3 +32,13 @@
   .navlink:hover {
     color: #e1e7eb;
   }
+
+  @media only screen and (max-width: 650px) {
+    .navlink {
+      margin-left: 5px;
+    }
+    .navContainer {
+      margin-right: 12px;
+      width: 100vw;
+    }
+  }
