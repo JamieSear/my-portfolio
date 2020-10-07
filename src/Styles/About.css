@@ -39,9 +39,19 @@
     font-size: 20px;
 }
 
-.skillsTitle {
+.aboutOneline {
     text-align: center;
     color: #ffffff;
+    font-size: 26px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.skillsTitle {
+    text-align: center;
+    /* margin-left: 20%; */
+    color: #28b6cf;
     margin-top: 40px;
 }
 
@@ -49,9 +59,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 80px;
 }
 .about-card{
-   max-width: 300px;
+    width: 300px;
     min-height: 250px;
     background: #ffffff;
     padding: 30px;
@@ -68,6 +79,7 @@
 }
 .about-card-title{
     margin-top: 0;
+    margin-bottom: 10px;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 1.2px;
@@ -75,7 +87,13 @@
 .about-card-content{
     font-size: 14px;
     letter-spacing: 0.5px;
-    line-height: 1.5;
+    line-height: 2.5;
+}
+
+.about-card-content1{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 2.5;
 }
 .about-card-btn{
     all: unset;
