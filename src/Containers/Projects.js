@@ -10,7 +10,13 @@ function Projects(props) {
   return (
 
     <div className="projects animated animatedFadeInUp fadeInUp">
-       <h2 className="projectTitle">Here is a list of some Projects I have worked on:</h2>
+           <div className="projectHead">
+            <div className="projectName">My<span>Projects</span>
+            </div>
+            <div className="projectSub-name">
+              Here are some of my projects
+            </div>
+        </div>
 
 
        <section class="card-container">

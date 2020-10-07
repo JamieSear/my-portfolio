@@ -1,5 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
+.projectHead{
+    color: #eaeaea;
+    /* background: rgb(54, 49, 49); */
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 40px;
+    height: 12vh;
+    width: 100%;
+    /* position: relative; */
+    /* z-index:1111; */
+    /* text-align: center; */
+    line-height: 25px;
+    transition: all 0.5s;;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    overflow: hidden;
+}
+
+.projectHead span{
+    font-weight: 900;
+}
+.projectName{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.projectSub-name{
+    margin-top: 6px;
+    margin-left: 130px;
+    width: 100%;
+    font-weight: 300;
+    /* margin-left: 23px; */
+    color: #28b6cf;
+    font-size: 20px;
+}
+
 .projectTitle {
     text-align: center;
     color: #ffffff;
@@ -46,3 +83,11 @@
 	text-shadow: 1px 1px 0 #555;
 }
 
+@media only screen and (max-width: 400px) {
+    .projectName {
+        font-size: 45px;
+    }
+    .projectSub-name{
+        font-size: 16px;
+    }
+}

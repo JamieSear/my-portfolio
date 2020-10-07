@@ -76,3 +76,19 @@ html,body{
 .home-btn:hover{
     background-color: #218394;
 }
+
+@media only screen and (max-width: 400px) {
+    .home-btn {
+        width: 140px;
+        font-size: 12px;
+    }
+    .name {
+        font-size: 60px;
+    }
+    .sub-name{
+        font-size: 28px;
+    }
+    .head{
+        width: 93vw;
+    }
+}
