@@ -1,11 +1,24 @@
-import React from "react"
+import React from "react";
+import '../Styles/Contact.css'
  
 function Contact(props) {
   return (
+    <>
+    <div className="aboutHead">
+        <div className="aboutName">Conact<span>Me</span>
+        </div>
+        <div className="aboutSub-name">
+          Please get in touch
+        </div>
+    </div>
     <div className="contacts animated animatedFadeInUp fadeInUp">
-       <h2 className="contactTitle">Contact me:</h2>
+       <h2 className="contactTitle">Please contact me through the following:</h2>
+       <p className="contactLinks"><button className="contact-btn" target="blank" href="https://www.linkedin.com/in/jamie-sear-26976a153/">LINKEDIN</button></p>
+       <br/>
+       <p className="contactLinks"><button className="contact-btn" href="mailto:jamiesear11@hotmail.co.uk">EMAIL</button></p>
         
     </div>
+    </>
   )
 }
  
