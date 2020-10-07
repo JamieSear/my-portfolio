@@ -13,10 +13,10 @@ const NavBar = () => {
                 </Link>
             </div>
             <nav className="nav">
-                <NavLink className="navlink" activeClassName="current" to="/" href="about">Home</NavLink>
-                <NavLink className="navlink" activeClassName="current" to="/about" href="about">About</NavLink>
-                <NavLink className="navlink" activeClassName="current" to="/projects" href="projects">Projects</NavLink>
-                <NavLink className="navlink" activeClassName="current" to="/contact">Contact</NavLink>
+                <NavLink className="navlink" activeClassName="current" to="/" href="about">HOME</NavLink>
+                <NavLink className="navlink" activeClassName="current" to="/about" href="about">ABOUT</NavLink>
+                <NavLink className="navlink" activeClassName="current" to="/projects" href="projects">PROJECTS</NavLink>
+                <NavLink className="navlink" activeClassName="current" to="/contact">CONTACT</NavLink>
             </nav>
 
             
