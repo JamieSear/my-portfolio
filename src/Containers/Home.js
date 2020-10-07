@@ -9,7 +9,7 @@ function Home(props) {
             <div class="name">Jamie<span>Sear</span>
             </div>
             <div class="sub-name">
-              Full Stack Engineer 
+              Full Stack Developer
               <br />
               <Link to="/about"><button className="home-btn">About me</button> </Link>
               <br />
