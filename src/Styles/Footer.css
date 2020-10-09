@@ -13,3 +13,7 @@
     justify-content: space-around;
     width: 100%;
 }
+
+.fa-linkedin-in, .fa-envelope, .fa-github {
+    font-size: 30px;
+}

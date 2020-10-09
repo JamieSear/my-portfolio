@@ -78,9 +78,14 @@
     height: 25vh;
     margin-top: 10px;
     border-radius: 3px;
-    margin-bottom: 200px;
+    margin-bottom: 250px;
 	text-align: center;
 	text-shadow: 1px 1px 0 #555;
+}
+
+.fab {
+    margin-left: 10px;
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -91,5 +96,17 @@
     .projectSub-name{
         font-size: 16px;
         margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .projectHead {
+        height: 14vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .projectHead {
+        height: 14vh;
     }
 }
