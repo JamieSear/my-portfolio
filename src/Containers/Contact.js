@@ -5,7 +5,7 @@ function Contact(props) {
   return (
     <>
     <div className="aboutHead">
-        <div className="aboutName">Conact<span>Me</span>
+        <div className="aboutName">Contact<span>Me</span>
         </div>
         <div className="aboutSub-name">
           Please get in touch
