@@ -5,6 +5,7 @@ import blogSite from '../assets/images/blogSite.png';
 import quiz from '../assets/images/Quizux.png';
 import KVF from '../assets/images/KVF.png';
 import shorturl from '../assets/images/ShortUrl.png';
+import ToDo from '../assets/images/ToDo.png';
  
 function Projects(props) {
   return (
@@ -73,6 +74,16 @@ function Projects(props) {
         <a target="blank" className="projectLink" href="https://shrink1.herokuapp.com/"><i class="fas fa-globe"></i> Website</a>
         <br/>
         <a target="blank" className="projectLink" href="https://github.com/JamieSear/short_url"><i class="fas fa-file-code"></i> Code</a>
+      </div>
+
+      <div class="card">
+      <img src ={ToDo} alt="logo"/>
+        <h1>To-Do App</h1>
+        <i class="fab fa-html5" aria-hidden="true"></i>
+        <i class="fab fa-css3-alt" aria-hidden="true"></i>
+        <i class="fab fa-python" aria-hidden="true"></i>
+        <p className="projectDesciption">Using Django, I created an app that allows users to keep track of their daily activities in the form of a to-do list. Users can update tasks and mark them as completed.</p>
+        <a target="blank" className="projectLink" href="https://github.com/JamieSear/django_todo"><i class="fas fa-file-code"></i> Code</a>
       </div>
 
       {/* <div class="card">
