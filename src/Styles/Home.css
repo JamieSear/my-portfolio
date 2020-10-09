@@ -92,3 +92,19 @@ html,body{
         width: 93vw;
     }
 }
+
+@media only screen and (max-width: 350px) {
+    .home-btn {
+        width: 120px;
+        font-size: 12px;
+    }
+    .name {
+        font-size: 50px;
+    }
+    .sub-name{
+        font-size: 24px;
+    }
+    .head{
+        width: 93vw;
+    }
+}
