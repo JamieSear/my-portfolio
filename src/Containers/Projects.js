@@ -41,9 +41,9 @@ function Projects(props) {
         <i class="fab fa-css3-alt" aria-hidden="true"></i>
         <i class="fab fa-js" aria-hidden="true"></i>
         <p className="projectDesciption">A blog site where users can create a post and attach an optional GIF to the post. Users can interact with other posts, by commenting or reacting to them and also serach for posts. Made using a RESTful API and express.js.</p>
-        <a target="blank" className="projectLink" href="https://codepen.io/gregrickaby/pen/pVmgGX"><i class="fas fa-globe"></i> Website</a>
+        <a target="blank" className="projectLink" href="https://majc-blogs.netlify.app/"><i class="fas fa-globe"></i> Website</a>
         <br />
-        <a target="blank" className="projectLink" href="https://codepen.io/gregrickaby/pen/pVmgGX"><i class="fas fa-file-code"></i> Code</a>
+        <a target="blank" className="projectLink" href="https://github.com/JamieSear/Project-1-Journal"><i class="fas fa-file-code"></i> Code</a>
       </div>
 
       <div class="card">
