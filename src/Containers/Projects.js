@@ -90,7 +90,7 @@ function Projects(props) {
       <img src ={captains} alt="logo"/>
         <h1>Captain's Log</h1>
         <p className="projectDesciption">Captain's Log is a place for managers or captains to select teams for future games.</p>
-        <a target="blank" className="projectLink" href="https://codepen.io/gregrickaby/pen/pVmgGX">Click here to view</a>
+        <a target="blank" className="projectLink" href="">Click here to view</a>
       </div> */}
       </section>
 </div>
