@@ -6,6 +6,7 @@ import quiz from '../assets/images/Quizux.png';
 import KVF from '../assets/images/KVF.png';
 import shorturl from '../assets/images/ShortUrl.png';
 import ToDo from '../assets/images/ToDo.png';
+import stushare from '../assets/images/stushare.png'
  
 function Projects(props) {
   return (
@@ -23,7 +24,7 @@ function Projects(props) {
        <section class="card-container">
 
       <div class="card">
-      <img src ={captains} alt="logo"/>
+      <img src ={captains} alt="project logo"/>
         <h1>Captain's Log</h1>
         <i class="fab fa-html5" aria-hidden="true"></i>
         <i class="fab fa-css3-alt" aria-hidden="true"></i>
@@ -35,7 +36,7 @@ function Projects(props) {
       </div>
 
       <div class="card">
-      <img src ={blogSite} alt="logo"/>
+      <img src ={blogSite} alt="project logo"/>
         <h1>Blog Site</h1>
         <i class="fab fa-html5" aria-hidden="true"></i>
         <i class="fab fa-css3-alt" aria-hidden="true"></i>
@@ -47,7 +48,7 @@ function Projects(props) {
       </div>
 
       <div class="card">
-      <img src ={quiz} alt="logo"/>
+      <img src ={quiz} alt="project logo"/>
         <h1>Quizux</h1>
         <i class="fab fa-html5" aria-hidden="true"></i>
         <i class="fab fa-css3-alt" aria-hidden="true"></i>
@@ -57,7 +58,7 @@ function Projects(props) {
       </div>
 
       <div class="card">
-      <img src ={KVF} alt="logo"/>
+      <img src ={KVF} alt="project logo"/>
         <h1>Kirkstall Valley Farm</h1>
         <i class="fab fa-wordpress" aria-hidden="true"></i>
         <p className="projectDesciption">A final year University Project created for a local CSA allowing them to promote their services to customers.</p>
@@ -65,7 +66,7 @@ function Projects(props) {
       </div>
 
       <div class="card">
-      <img src ={shorturl} alt="logo"/>
+      <img src ={shorturl} alt="project logo"/>
         <h1>Short URL</h1>
         <i class="fab fa-html5" aria-hidden="true"></i>
         <i class="fab fa-css3-alt" aria-hidden="true"></i>
@@ -77,7 +78,20 @@ function Projects(props) {
       </div>
 
       <div class="card">
-      <img src ={ToDo} alt="logo"/>
+      <img src ={stushare} alt="project logo"/>
+        <h1>stushare</h1>
+        <i class="fab fa-html5" aria-hidden="true"></i>
+        <i class="fab fa-css3-alt" aria-hidden="true"></i>
+        <i class="fab fa-python" aria-hidden="true"></i>
+        <i class="fab fa-bootstrap" aria-hidden="true"></i>
+        <p className="projectDesciption">Using Django, I created an app that allows place for University students to share interesting resources that they have found whilst completing their course. This can provide people from different universities to gain a different view on a subject/topic.</p>
+        <a target="blank" className="projectLink" href="http://jamiesear.pythonanywhere.com/"><i class="fas fa-globe"></i> Website</a>
+        <br/>
+        <a target="blank" className="projectLink" href="https://github.com/JamieSear/stuShare"><i class="fas fa-file-code"></i> Code</a>
+      </div>
+
+      <div class="card">
+      <img src ={ToDo} alt="project logo"/>
         <h1>To-Do App</h1>
         <i class="fab fa-html5" aria-hidden="true"></i>
         <i class="fab fa-css3-alt" aria-hidden="true"></i>
@@ -87,7 +101,7 @@ function Projects(props) {
       </div>
 
       {/* <div class="card">
-      <img src ={captains} alt="logo"/>
+      <img src ={captains} alt="project logo"/>
         <h1>Captain's Log</h1>
         <p className="projectDesciption">Captain's Log is a place for managers or captains to select teams for future games.</p>
         <a target="blank" className="projectLink" href="">Click here to view</a>
