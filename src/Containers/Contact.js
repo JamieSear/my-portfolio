@@ -13,9 +13,9 @@ function Contact(props) {
     </div>
     <div className="contacts animated animatedFadeInUp fadeInUp">
        <h2 className="contactTitle">Please contact me through the following:</h2>
-       <p className="contactLinks"><button className="contact-btn" target="blank" href="https://www.linkedin.com/in/jamie-sear-26976a153/">LINKEDIN</button></p>
+       <p className="contactLinks"><button className="contact-btn" target="blank" href="https://www.linkedin.com/in/jamie-sear">LINKEDIN</button></p>
        <br/>
-       {/* <p className="contactLinks"><button className="contact-btn" href="mailto:jamiesear11@hotmail.co.uk">EMAIL</button></p> */}
+       <p className="contactLinks"><button className="contact-btn" href="mailto:jamiesear11@hotmail.co.uk">EMAIL</button></p>
         
     </div>
     </>
