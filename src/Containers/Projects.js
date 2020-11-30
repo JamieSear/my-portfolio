@@ -6,7 +6,8 @@ import quiz from '../assets/images/Quizux.png';
 import KVF from '../assets/images/KVF.png';
 import shorturl from '../assets/images/ShortUrl.png';
 import ToDo from '../assets/images/ToDo.png';
-import stushare from '../assets/images/stushare.png'
+import stushare from '../assets/images/stushare.png';
+import habit from '../assets/images/Apple.png';
  
 function Projects(props) {
   return (
@@ -63,6 +64,17 @@ function Projects(props) {
         <i class="fab fa-wordpress" aria-hidden="true"></i>
         <p className="projectDesciption">A final year University Project created for a local CSA allowing them to promote their services to customers.</p>
         <a target="blank" className="projectLink" href="https://kirkstallvalleyfarm.jamiesear.com/"><i class="fas fa-globe"></i> Website</a>
+      </div>
+
+      <div class="card">
+      <img src ={habit} alt="project logo"/>
+        <h1>Habit Tracker</h1>
+        <i class="fab fa-html5" aria-hidden="true"></i>
+        <i class="fab fa-css3-alt" aria-hidden="true"></i>
+        <i class="fab fa-js" aria-hidden="true"></i>
+        <i class="fab fa-react" aria-hidden="true"></i>
+        <p className="projectDesciption">Apple a Day is a habit tracking app. Once logged in the user can create new habits to track and set a frequency for the amount of times they wish to perform the habit. Users can then click the “Complete Habit” button and it will add to their streak. If the user fails to complete a habit on time it will reset the streak.</p>
+        <a target="blank" className="projectLink" href="https://github.com/JamieSear/LAP-3-App"><i class="fas fa-file-code"></i> Code</a>
       </div>
 
       <div class="card">
